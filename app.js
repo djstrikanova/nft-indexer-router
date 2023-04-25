@@ -25,7 +25,8 @@ let searchkitRouter = SearchkitExpress.createRouter({
                 pre_tags: ['<span class="highlight">'],
                 post_tags: ['</span>'],
                 fields: {
-                    "caption_model_vit_l_14_openai_f1": {}
+                    "caption_model_vit_l_14_openai_f1": {},
+                    "caption_model_vit_l_14_openai": {}
                 }
             }
         };
